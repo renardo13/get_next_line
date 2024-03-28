@@ -6,7 +6,7 @@
 /*   By: melmarti <melmarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 12:46:25 by melmarti          #+#    #+#             */
-/*   Updated: 2023/12/05 14:06:57 by melmarti         ###   ########.fr       */
+/*   Updated: 2024/03/28 12:06:59 by melmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 #  define BUFFER_SIZE 2
 # endif
 
+#include <stdio.h>
 # include <fcntl.h>
 # include <limits.h>
 # include <stdlib.h>

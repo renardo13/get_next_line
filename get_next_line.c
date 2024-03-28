@@ -6,7 +6,7 @@
 /*   By: melmarti <melmarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 12:46:17 by melmarti          #+#    #+#             */
-/*   Updated: 2023/12/04 16:07:06 by melmarti         ###   ########.fr       */
+/*   Updated: 2024/03/28 12:08:20 by melmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -142,17 +142,15 @@ char	*get_next_line(int fd)
 	return (line);
 }
 
-/*  int	main(void)
+ int	main(void)
 {
 	int fd;
 	char *line;
 
 	fd = open("text.txt", O_RDONLY);
 	if (fd == -1)
-	{
-		perror("Erreur lors de l'ouverture du fichier");
 		return (1);
-	}
+	line = get_next_line(fd);
 	while (line)
 	{
 		printf("%s", line);
@@ -161,4 +159,4 @@ char	*get_next_line(int fd)
 	}
 	close(fd);
 	return (0);
-}  */
+} 
